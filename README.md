@@ -46,3 +46,10 @@ Konsekuensi: Risiko kehilangan nasabah loyal meningkat.
 | poutcome | Text | Hasil kampanye pemasaran sebelumnya (uccess, failure, unknown). |
 | deposit | Text | Target: apakah nasabah berlangganan deposito berjangka (yes/no). |
 | Sales Fraud | text | Apakah sales yang melakukan fraud berpengaruh pada churn atau tidaknya seorang nasabah? |
+
+
+### SUMMARY
+#### - Kita telah membuat fitur simulasi `sales_fraud` yang meningkatkan kemungkinan churn pada kondisi tertentu.
+#### - EDA dan ablation menunjukkan bahwa kehadiran `sales_fraud` meningkatkan kemampuan model dalam memprediksi churn, 
+####   sehingga dapat dikatakan churn terpengaruh oleh adanya fraud (sesuai skenario sales yang dilakukan secara sistematis).
+#### - Model terbaik telah kami simpan dan dapat didemokan melalui UI sederhana dengan Gradio.
